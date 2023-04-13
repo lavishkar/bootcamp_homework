@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+       input
+       {
+        margin-top:5px;
+        margin-bottom: 8px; 
+       }
+       select
+       {
+        margin-top: 5px; 
+        margin-bottom: 5px;
+       }
+       label
+       {
+        margin-bottom: 3px;
+       }
+       
+    </style>
+</head>
+<Body>
+    <p style="font-size:x-large; font-family: 'Times New Roman', Times, serif;">Contact Us Extended</p>
+    <form action="/action_page.php" method="get">
+        <label for="fname" >First Name*</label>  <label for="lname" style="width: 200px; margin-left: 230px;">Last Name*</label> <br>
+        <input type="text" id="fname" name="fname" style="width: 300px;" required> <input type="text" id="lname" name="lname" style="width: 300px;" required><br>
+        <label for="email">Email*</label><br>
+        <input type="email" id="email" name="email" style="width: 610px;" required><br>
+        <label for="Phone">Phone Number*</label><br>
+        <input type="number" id="Phone" name="Phone" style="width: 610px;" required><br>
+        <label for="address">Address</label><br>
+        <textarea rows="10" cols="81"></textarea><br>
+        <label for="city">City</label><br>
+        <input type="text" id="city" name="city" style="width: 610px;"><br>
+        <label for="state/province">State / Province</label><br>
+        <select id="state/province" name="state/province" style="width: 613px; padding-top: 5px; padding-bottom: 5px;">
+            <option value="Alabama">Alabama</option>
+            <option value="Alaska">Alaska</option>
+            <option value="California">California</option>
+            <option value="Connecticut">Connecticut</option>
+            <option value="Indiana">Indiana</option>
+            <option value="Kentucky">Kentucky</option>
+            <option value="Louisiana">Louisiana</option>
+        </select><br>
+        <label for="Country">Country</label><br>
+        <select id="Country" name="Country" style="width: 613px; padding-top: 5px; padding-bottom: 5px;">
+            <option value="Afganisthan">Afganisthan</option>
+            <option value="Bahrain">Bahrain</option>
+            <option value="Cambodia">Cambodia</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Fiji">Fiji</option>
+            <option value="India">India</option>
+            <option value="France">France</option>
+        </select> <br>
+        <label for="zip/postalcode">ZIP / Postal Code</label><br>
+        <input type="text" id="zip/postalcode" name="zip/postalcode" style="width: 610px;"><br>
+        <label for="coments">Coments and Questions</label><br>
+        <textarea rows="5" cols="81"></textarea><br>
+        <input type="submit" value="Submit">
+
+   </form>
+
+</Body>
+
+</html>

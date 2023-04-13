@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Terms & Conditions</title>
+    <style>
+        input 
+        {
+         margin-bottom: 5px;      
+        }
+    </style>
+</head>
+<body style="background-color: rgb(250, 235, 215);">
+    <p style="font-size:x-large; font-family: 'Times New Roman', Times, serif;">Terms and Conditions</p>
+
+    <p style="font-size:large;">Please read our Terms and Conditions and sign below.</p>
+    <form action="/action_page.php" method="get">
+        <label for="fname" >First Name*</label>  <label for="lname" style="width: 200px; margin-left: 230px;">Last Name*</label> <br>
+        <input type="text" id="fname" name="fname" style="width: 300px;" required> <input type="text" id="lname" name="lname" style="width: 300px;" required><br>
+        <label for="email">Email*</label><br>
+        <input type="email" id="email" name="email" style="width: 610px;" required><br>
+        <label for="t&c">Terms and Conditions</label><br>
+        <textarea rows="10" cols="80"></textarea><br>
+        <label for="sign">Please sign here</label><br>
+        <input type="text" id="sign" name="sign" style="width: 300px; height: 100px;" required><br>
+        <input type="button" onclick="SignatureCleared" value="Clear Signature Pad">  <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
