@@ -5,7 +5,7 @@ function checkPalindrome(str)
     {  
         if (str[i] !== str[len - 1 - i]) 
         {  
-          return( 'It is not palindrome'); 
+          return('It is not palindrome'); 
         }  
     }  
     return( 'It is a palindrome');  
@@ -13,3 +13,4 @@ function checkPalindrome(str)
 const string = "malayalam"; 
 const value = checkPalindrome(string);
 console.log(value);  
+
